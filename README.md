@@ -1,0 +1,2 @@
+# Design-Patterns-in-Java
+Les modèles de conception représentent les meilleures pratiques utilisées par les développeurs de logiciels orientés objet expérimentés. Les modèles de conception sont des solutions aux problèmes généraux rencontrés par les développeurs de logiciels lors du développement de logiciels. Ces solutions ont été obtenues par essais et erreurs par de nombreux développeurs de logiciels sur une période assez longue.
