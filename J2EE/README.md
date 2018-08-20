@@ -1,0 +1,8 @@
+J2EE design patterns have been evolving over the last few years as the Java community has gained J2EE experience. These design patterns identify potential problems encountered when using the various J2EE-specified technologies and help developers construct an application architecture's requirements. The popular Front Controller design pattern, for example, transforms unstructured servlet code into a controller reminiscent of the refined GUI (graphical user interface) development.
+
+J2EE design patterns identify those domain problems most likely to appear in your J2EE projects. Indeed, if the problems were rare, the design patterns would not have evolved to meet them. With that in mind, you'll benefit from addressing each domain problem in your architecture. To solve them all, create a checklist to validate your architecture for completeness. That process contrasts with the process for the software development design patterns I discuss next, as you need apply those patterns only when and if appropriate.
+
+So where do you find J2EE design patterns? Sun Microsystems offers two books that contain many J2EE patterns:
+
+The J2EE BluePrint Group's Designing Enterprise Applications with the Java 2 Platform (Enterprise Edition), Nicholas Kassem et al. (Addison-Wesley, 2000; ISBN: 0201702770)
+The Sun Professional Services Group's Core J2EE Patterns: Best Practices and Design Strategies, Deepak Alur, John Crupi, and Dan Malks (Prentice Hall, 2001; ISBN: 0130648841)

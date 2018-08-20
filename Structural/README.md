@@ -1,0 +1,2 @@
+# Pattern de structure 
+Concernent la composition des classes et des objets. Le concept d'héritage est utilisé pour composer des interfaces et définir des manières de composer des objets pour obtenir de nouvelles fonctionnalités.
