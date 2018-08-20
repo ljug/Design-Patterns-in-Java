@@ -1,5 +1,5 @@
 # "Design Patterns" en Java
-Les modèles de conception représentent les meilleures pratiques utilisées par les développeurs de logiciels orientés objet expérimentés. Les modèles de conception sont des solutions aux problèmes généraux rencontrés par les développeurs de logiciels lors du développement de logiciels. Ces solutions ont été obtenues par essais et erreurs par de nombreux développeurs de logiciels sur une période assez longue.
+Les modèles de conception ou principes de conception représentent les meilleures pratiques utilisées par les développeurs de logiciels orientés objet expérimentés. Les modèles de conception sont des solutions aux problèmes généraux rencontrés par les développeurs de logiciels lors du développement de logiciels. Ces solutions ont été obtenues par essais et erreurs par de nombreux développeurs de logiciels sur une période assez longue.
 ## Public concerné
 * Complément de cours pour les auditeurs du Cnam Liban pour les UEs NFP121, NSY208, NSY209, GLG203, GLG204, NFP103.
 * Mais aussi des développeurs expérimentés pour fournir les meilleures solutions à certains problèmes rencontrés lors du développement de logiciels.
@@ -7,7 +7,22 @@ Les modèles de conception représentent les meilleures pratiques utilisées par
 ## Pré-requis
 Un mimimum de programmation Java, avoir déjà réalisé quelues petit ptojet en Java. Pour les auditeurs du Cnam Liban par exemple avoir le nuveaux des UE NFA031,NFA032 et NFA035
 # Introduction et préparation
-## Le gang des 4 GOF (Gamg of Four)
+## Quels sont et pourquoi des principes de conceptions?
+Représenter un ensemble de lignes directrices qui nous aident à éviter d'avoir un mauvais design (Robert Martin)
+
+### Caractéristiques d'une mauvaise conception
+
+* Rigidité - Difficile à changer car chaque changement affecte trop de parties du système
+* Fragilité - Lorsque vous effectuez un changement, des parties inattendues du système se détériore
+* Non-réutilisabilité (immobilité) - Difficile à réutiliser dans une autre application parce qu'il ne peut pas être extrait de l'application actuelle
+
+### Caractéristiques d'une bonne conception
+
+* Propre et modulaire (opposé à la non-réutilisabilité)
+* Très cohésif (opposé à la rigidité)
+* À couplage lâche (opposé à la fragilité)
+
+## Le gang des 4 GOF (Gagg of Four)
 En 1994, quatre auteurs, Erich Gamma, Richard Helm, Ralph Johnson et John Vlissides ont publié un livre intitulé *"Design Patterns - Elements of Réutilisable Object-Oriented Software"*, qui a initié le concept de Design Pattern dans le développement de logiciels.
 
 Ces auteurs sont connus collectivement sous le nom de **Gang of Four (GOF)**. Selon ces auteurs, les modèles de conception reposent principalement sur les principes suivants de conception orientée objet.
