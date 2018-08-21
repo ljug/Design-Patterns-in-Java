@@ -1,2 +1,15 @@
-theme: jekyll-theme-leap-day
-title: Design pattern en java
+theme: jekyll-theme-architect
+
+name: Java at Lebanese Java User Group and Cnam Liban
+
+author: Pascal Fares
+
+author_email: pascal.fares@cofares.net
+
+title:  Autour de Java 
+
+google_analytics: UA-24954673-1
+
+
+plugins: 
+  - jekyll-sitemap
