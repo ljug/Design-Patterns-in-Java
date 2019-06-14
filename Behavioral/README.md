@@ -1,10 +1,10 @@
 # Pattern de comportement 
 Pour organiser les objets et faciliter la communication entre eux. Concernent la communication entre objets.
 
-## Pattern Strategy
+## <a id="strategy"></a> Pattern Strategy
 
 La problématique de ce pattern est plutôt simple : comment faire pour réaliser différentes opérations avec un seul et même objet ?
-On pourrait dire: c’est simple on fait une classe avec toutes les opérations ! Mais non car procéder comme ceci violerait un principe SOLID : le *Single Responsibility principle* voir [Les principes SOLID](../Principes/).
+On pourrait dire: c’est simple on fait une classe avec toutes les opérations ! Mais non car procéder comme ceci violerait un principe SOLID : le *Single Responsibility principle* voir [Les principes SOLID](../Principes/#ru).
 
 Pour éviter ceci, on structure nos classes de la manière suivante :
 
@@ -86,3 +86,8 @@ public class TestClient {
 Si vous comparez les deux exemples, vous verrez qu’elles sont des refactorisations l’une de l’autre, avec un code presque identique. La principale différence est la manière dont les classes de stratégie sont attachées à la classe IntProcessor. La figure suivante montre les diagrammes de classe correspondants pour les deux conceptions différentes.
 
 ![Startegie refactor](img/470600_1_En_4_Fig1_HTML.jpg)
+
+## <a id="iterator"></a>Iterable, Iterator
+
+
+

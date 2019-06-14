@@ -71,3 +71,19 @@ Pattern de création| Permettent de créer des objets tout en masquant la logiqu
 Pattern de structure | Concernent la composition des classes et des objets. Le concept d'héritage est utilisé pour composer des interfaces et définir des manières de composer des objets pour obtenir de nouvelles fonctionnalités.
 Pattern de comportement | Concernent la communication entre objets.
 Pattern J2EE | quelques modèles complémentaires concernent spécifiquement le niveau de présentation dans le cadre de développement coté serveur et le Java Entreprise JAVA EE. Ces modèles ont été identifiés par Sun Java Center.
+
+## Les principaux modèle par type
+
+## Les modèles de création
+Dans cette catégorie, il existe 5 modèles principaux :
+
+| Nom	| Rôle
+| -----  | -----
+| Fabrique (Factory)	| Créer un objet dont le type dépend du contexte
+| Fabrique abstraite (abstract Factory)	| Fournir une interface unique pour instancier des objets d'une même famille sans avoir à connaître les classes à instancier
+| Monteur (Builder)	 | -
+| Prototype (Prototype)	| Création d'objet à partir d'un prototype
+| Singleton (Singleton)	| Classe qui ne pourra avoir qu'une seule instance
+
+... //TODO à completer ...
+https://java-design-patterns.com/
